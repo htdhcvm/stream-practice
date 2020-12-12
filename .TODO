@@ -1,0 +1,22 @@
+todos:
+    [] - @loadFileOnClientWithPersent load and show file in chunks and percent show image  
+        [] - layout
+
+    [] - @loadManyImagesFromServer load image from server chunks, one chunk one image
+        [] - layout
+
+    [] - @loadManyDataFromServerWithDelay load many data from server with artificial delay
+        [] - layout
+
+    [] - @loadFilesToServerWithPercent load file to server with percent loading
+        [x] - layout
+        [x] - common LinearProgress
+        [x] - loading many files
+        [x] - change icon
+        [] - save multiple files 
+        [] - identify each file which loaded
+        [] - print how many MB was loaded
+        [] - print Kb per second
+
+    [] - @writeInDbAndPTagwrite input text which send to server write on db and send back and write into p tag
+        [] - layout
