@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.header {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    li {
+        list-style: none;
+    }
+}
